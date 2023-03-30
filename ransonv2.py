@@ -66,10 +66,10 @@ def decrypt_prompt_folder_selection():
             decrypt_folder(folder_path, key)
 
 # Solicitando ao usuário se deseja criptografar ou descriptografar
-choice = input("Digite 'e' para criptografar uma pasta ou 'd' para descriptografar uma pasta: ")
-if choice == 'e':
+choice = input("Digite 'E' para criptografar uma pasta ou 'D' para descriptografar uma pasta: ")
+if choice == 'E':
     encrypt_prompt_folder_selection()
-elif choice == 'd':
+elif choice == 'D':
     decrypt_prompt_folder_selection()
 else:
     print("Escolha inválida. Saindo...")
